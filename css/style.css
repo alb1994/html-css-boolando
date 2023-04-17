@@ -48,6 +48,58 @@ body{
     padding: 0px 5px 0px 5px;
 }
 /* fine header*/
+/* inizio main*/
+main{
+    width: 75%;
+    margin: 0 auto;
+}
+.container-main{
+
+}
+.row-main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-main{
+    width: 345px;
+}
+.column-main{
+    width: calc(100% /3 -20px);
+    margin: 20px;
+    margin: 0 auto;
+}
+.content-main{
+    position: relative;
+}
+.red{
+    padding: 10px;
+    background-color: red;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: 430px;
+    right: 302px;
+}
+.green{
+    padding: 10px;
+    background-color: green;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: 430px;
+    right: 230px;
+}
+.cuore{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.container-cuore{
+    padding: 10px;
+    background-color:white;
+}
+/* fine main*/
 /* inizio footer*/
 footer{
     background-color: rgb(0, 0, 0);
