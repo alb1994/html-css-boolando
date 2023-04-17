@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+/* inizio header*/
+.container-header{
+    background-color: rgb(255, 157, 0);
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+}
+.row-header{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
+}
+.column-header{
+    width: calc(100% / 3);
+    display: flex;
+    padding: 10px;
+}
+.content-header-2{
+    margin: 0 auto;
+}
+.content-header-3{
+    margin-left: 77%;
+}
+.logo-centrale{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.titolo-centrale{
+    font-size: 20px;
+    margin: 0 auto;
+}
+.titolo-left{
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+}
+.icone-header{
+    padding: 0px 5px 0px 5px;
+}
+/* fine header*/
+/* inizio footer*/
+footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+.footer-container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+}
+.row-footer{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.column-footer-1{
+    width: 50%;
+}
+.column-footer-2{
+    width: 50%;
+}
+.content-footer-1{
+  text-align: left;
+}
+.content-footer-2{
+    margin-left: 82%;
+  }
+.sottotitolo-footer-left{
+    font-size: 10px;
+    padding: 0px 5px 0px 10px;
+    margin-left: 5px;
+}
+.titolo-right-footer{
+    font-size: 8px;
+    margin-right: 40px;
+}
+.titolo-left-footer{
+    margin-left: 15px;
+}
+/*fine footer*/
